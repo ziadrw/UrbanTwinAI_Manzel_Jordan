@@ -1,0 +1,7 @@
+*
+!results
+!results/**
+!Menzal_Technologies_Twin_AI_PoC.ipynb
+!.gitignore
+!README.md
+!requirements.txt

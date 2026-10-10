@@ -1,0 +1,2 @@
+total_samples,train_samples,test_samples,train_fraction,test_fraction,total_spatial_groups,train_spatial_groups,test_spatial_groups,spatial_block_m,MAE_C,RMSE_C,R^2,bias_C_pred_minus_obs
+22500,16800,5700,0.7466666666666667,0.25333333333333335,225,168,57,300,0.5775768221949898,0.8250117924315935,0.7447048955746769,-0.004208367758714734
