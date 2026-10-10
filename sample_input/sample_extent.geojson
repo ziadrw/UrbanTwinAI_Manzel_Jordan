@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "sample_extent",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "sample_extent" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 55.236908639951331, 24.783103251341814 ], [ 55.236333881504528, 24.823724903203626 ], [ 55.191824709767964, 24.823193162076578 ], [ 55.192413954221088, 24.782572495434994 ], [ 55.236908639951331, 24.783103251341814 ] ] ] } }
+]
+}
