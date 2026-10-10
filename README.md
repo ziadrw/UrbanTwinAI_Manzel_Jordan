@@ -1,4 +1,4 @@
-# Menzal Technologies Twin AI Urban Planning PoC
+# Menzal منزل UrbanTwin AI PoC
 
 This project contains a Jupyter notebook that demonstrates a reproducible Earth Observation (EO) → AI → urban-planning workflow using Sentinel-2 and Landsat-9 data.
 
