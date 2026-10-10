@@ -1,6 +1,8 @@
 *
 !results
 !results/**
+!sample_input
+!sample_input/**
 !Menzal_Technologies_Twin_AI_PoC.ipynb
 !.gitignore
 !README.md
