@@ -2,6 +2,32 @@
 
 This project contains a Jupyter notebook that demonstrates a reproducible Earth Observation (EO) → AI → urban-planning workflow using Sentinel-2 and Landsat-9 data.
 
+## Installation
+
+A `requirements.txt` file is provided for convenience, but for this project it is **not always the most reliable installation method**.
+
+This notebook depends on the geospatial stack (`GDAL`, `GeoPandas`, `Fiona`, `PyProj`, `Shapely`), and these packages can be difficult to install consistently with plain `pip`, especially across operating systems.
+
+### Recommended approach
+
+Use **Conda/Mamba** with `conda-forge`:
+
+```bash
+mamba create -n menzal-poc -c conda-forge \
+  python=3.11 gdal geopandas scikit-learn matplotlib pandas numpy jupyterlab notebook ipykernel
+mamba activate menzal-poc
+```
+
+### Alternative approach
+
+A `requirements.txt` file is included and may work in environments where GDAL and its native dependencies are already available:
+
+```bash
+pip install -r requirements.txt
+```
+
+If the pip installation fails, prefer the Conda/Mamba setup above.
+
 ## 1. Environment and Configuration
 
 Defines the Python libraries, input paths, output folders, study-area settings, clustering parameters, Random Forest settings, and validation configuration.
