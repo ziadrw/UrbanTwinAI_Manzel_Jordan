@@ -1,6 +1,6 @@
-# Menzal منزل|UrbanTwin AI PoC
+# Manzal منزل|UrbanTwin AI PoC
 
-## Urban Thermal Intelligence: From Earth Observation Data
+## UrbanTwin AI Earth Observation Intelligence for Climate-Resilient Arab Cities
 
 **Team:** منزل Manzel | **Initiative:** UrbanTwin AI  
 **Theme:** Urban Expansion, Land Use Change & Heat Risk | **Team country:** Jordan  
