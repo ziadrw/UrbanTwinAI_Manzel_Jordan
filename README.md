@@ -215,3 +215,10 @@ Documents:
 - thermal-resolution limitations
 - the distinction between LST and human heat exposure
 - that the planning-priority score is a PoC heuristic, not a validated risk score
+
+## 17. Team, licence, and attribution
+
+- **Hadeel Balasmeh** — Project Team Lead
+- **Noor Al Khatib** — Smart Cities & Digital Twin Specialist
+- **Abdelrahman Abdelgaber** — GIS Engineer & AI Engineer
+- **Ziad AlRawashdeh** — AI Engineer
