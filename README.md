@@ -1,5 +1,37 @@
 # Menzal منزل|UrbanTwin AI PoC
 
+# Urban Thermal Intelligence: From Earth Observation Data
+
+**Team:** منزل Manzel | **Initiative:** UrbanTwin AI  
+**Theme:** Urban Expansion, Land Use Change & Heat Risk | **Team country:** Jordan  
+**Status:** Proof of Concept (PoC)
+
+This PoC turns Sentinel-2C spectral features and Landsat-9 land-surface temperature (LST) into spectral clusters, LST predictions, residual maps, and an exploratory 250 m planning-priority layer.
+
+> **Geographic scope:** The showcased pilot results are from the UAE, not Jordan.
+
+## 1. Business use case
+
+Municipal planners, smart-city teams, and urban consultants could use the outputs to screen locations for further investigation of surface heat and vegetation patterns. Potential future offerings include monitoring reports, dashboards, APIs, and Digital Twin integrations. These uses and business models still require user validation.
+
+## 2. The problem
+
+Satellite imagery is not planning evidence by itself: it must be cleaned, analysed, validated, and translated into interpretable indicators. This PoC demonstrates that workflow. It does not quantify the population or economic cost affected by heat, and one observation period cannot establish urban-growth trends.
+
+## 3. Data used
+
+| Dataset | Product / bands | Use |
+|---|---|---|
+| Sentinel-2C, ESA/Copernicus | Level-2A surface reflectance; B02, B03, B04, B08, B11, B12 | Spectral features and indices |
+| Landsat-9, USGS/NASA | Collection 2 Level-2, `ST_B10` | Reference LST for modelling |
+| Sentinel-1 SAR | Supplied scene | Excluded: it does not overlap the UAE pilot area |
+
+The notebook derives NDVI, NDBI, MNDWI, and BSI. These are spectral indicators, not validated land-cover labels. **Hyperspectral data from Arab Satellite 813 was not demonstrated in the reported outputs.** gIQ is an access platform, not the original data provider.
+
+Before submission, add the exact acquisition dates, product IDs, source links, and applicable licence/attribution from the input metadata. Do not guess missing details.
+
+# Technical approach.
+
 This project contains a Jupyter notebook that demonstrates a reproducible Earth Observation (EO) → AI → urban-planning workflow using Sentinel-2 and Landsat-9 data.
 
 ## Installation
